@@ -1,0 +1,11 @@
+name: CastleReset
+main: io.github.Aaron1011.CastleReset.CastleReset
+depend: [Factions]
+version: 1.0
+
+commands:
+  reset_castles:
+    description: Reset all castles to the last modification by a team member
+    usage: /reset_castles
+    permission: CastleReset.reset_castles
+    permission-message: You don't have the permission CastleReset.reset_castles
